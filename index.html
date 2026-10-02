@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shaik Sameer | Entry-level Software Developer</title>
+<meta name="description" content="Portfolio of Shaik Sameer, B.Tech CSE graduate skilled in Python, SQL and front-end web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">Sameer</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+    <button id="themeBtn" aria-label="Switch theme">Dark</button>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Shaik Sameer</h1>
+      <p class="role">Entry-level software developer who likes finding out why things break, then fixing them.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="Shaik_Sameer_IT_Resume_Updated.pdf" download>Download resume</a>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="profile.jpg" alt="Portrait of Shaik Sameer" width="400" height="400">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a B.Tech Computer Science graduate (2026) from Hyderabad. I build front-end web pages with HTML, CSS and JavaScript, write Python and SQL, and have worked on machine learning projects in college. I've completed four virtual internships in web and full stack development.</p>
+    <p>I'm looking for an entry-level role such as Software Developer, Full Stack Developer, Application Support Engineer or Data / ML Associate.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div><h3>Programming</h3><ul><li>Python</li><li>C</li></ul></div>
+      <div><h3>Web</h3><ul><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li><li>React.js</li></ul></div>
+      <div><h3>Databases</h3><ul><li>SQL</li><li>PL/SQL</li><li>Oracle</li></ul></div>
+      <div><h3>AI and data</h3><ul><li>Machine learning</li><li>Neural networks</li><li>Data preprocessing</li></ul></div>
+      <div><h3>Tools</h3><ul><li>Git and GitHub</li><li>VS Code</li><li>MS Excel</li></ul></div>
+      <div><h3>Working style</h3><ul><li>Debugging</li><li>Troubleshooting</li><li>Team collaboration</li></ul></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li><h3>Full Stack Web Development Intern, Future Interns</h3><span>Aug 2026 – Sep 2026</span><p>Applied full stack concepts to task-based assignments and delivered them on time, using mentor feedback to improve.</p></li>
+      <li><h3>Frontend Development Intern, DecodeLabs</h3><span>Aug 30 – Sep 30, 2026</span><p>Worked on real-world projects and collaborative tasks in a virtual internship.</p></li>
+      <li><h3>Frontend Development Intern, CodeAlpha</h3><span>Sep 1 – Sep 30, 2026</span><p>Completed the virtual internship in front-end development and was recognized for dedication.</p></li>
+      <li><h3>Web Development Intern, SkillCraft Technology</h3><span>Sep 1 – Sep 30, 2026</span><p>Built practical web development skills through one month of assigned tasks.</p></li>
+      <li><h3>Young Professional, TCS iON Career Edge</h3><span>Training</span><p>Completed training in workplace communication, business etiquette and employability.</p></li>
+    </ol>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="web">Web</button>
+      <button class="chip" data-filter="ml">Machine learning</button>
+    </div>
+    <div class="project-list">
+      <article class="project" data-type="ml">
+        <h3>Employee Attrition Rate Prediction</h3>
+        <p>A classification model that identifies employees likely to leave. Covers preprocessing, feature engineering, training and evaluation.</p>
+        <p class="tags">Python, Machine Learning</p>
+      </article>
+      <article class="project" data-type="ml">
+        <h3>Fake Profile Detection on Social Networks</h3>
+        <p>A neural network that flags fake profiles from user behavior and profile features.</p>
+        <p class="tags">Python, Neural Networks</p>
+      </article>
+      <article class="project" data-type="web">
+        <h3>To-Do List Web App</h3>
+        <p>Create tasks with priority and due dates, search them, and switch themes. Tested and debugged for reliability.</p>
+        <p class="tags">HTML5, CSS3, JavaScript</p>
+        <a href="https://github.com/23w95a0529" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project" data-type="web">
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive site showing skills, projects and professional details.</p>
+        <p class="tags">HTML5, CSS3, JavaScript, Bootstrap 5</p>
+        <a href="https://github.com/23w95a0529" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project" data-type="web">
+        <h3>Calculator</h3>
+        <p>A responsive calculator with the core math operations and interactive input.</p>
+        <p class="tags">HTML5, CSS3, JavaScript</p>
+        <a href="https://github.com/23w95a0529" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="edu">
+      <li><strong>B.Tech, Computer Science and Engineering</strong>Malla Reddy Institute of Engineering and Technology, 2023 – 2026. CGPA 6.90 / 10</li>
+      <li><strong>Diploma</strong>Sri Rajarajeshwara Swamy Polytechnic College, Sircilla, 2020 – 2023. CGPA 6.01 / 10</li>
+      <li><strong>SSC</strong>TMRS Boys School, Ramagudam, 2019 – 2020. CGPA 8.8 / 10</li>
+    </ul>
+    <p>Languages: English, Telugu, Hindi, Urdu</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Open to entry-level roles. The quickest way to reach me is email.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:sameerbunny123@gmail.com">Email me</a>
+      <button class="btn" id="copyBtn" type="button">Copy email address</button>
+      <a class="btn" href="https://www.linkedin.com/in/shaik-sameer-29a90242a" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/23w95a0529" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="muted">Phone: +91 7731957717 · Hyderabad, Telangana</p>
+  </section>
+</main>
+
+<footer><p>© <span id="year"></span> Shaik Sameer</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
